@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Manrope", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1414;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-radial-blue {
+  background: radial-gradient(
+    145.31% 96.49% at 50% 77.59%,
+    rgba(72, 96, 203, 0.8) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.bg-radial-white {
+  background-blend-mode: overlay;
+  background: radial-gradient(
+      62.23% 62.23% at 60.43% 73.72%,
+      rgba(255, 254, 254, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.bg-radial-price {
+  background: #233b6e57;
+  background: radial-gradient(
+    145.31% 96.49% at 50% 77.59%,
+    rgba(23, 49, 114, 0.45) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.pricing-border-left {
+  border-radius: 24px 0 0 24px;
+  border-top: 1px solid rgba(119, 119, 119, 0.8);
+  border-left: 1px solid rgba(119, 119, 119, 0.8);
+  border-bottom: 1px solid rgba(119, 119, 119, 0.8);
+}
+
+.pricing-border-right {
+  border-radius: 0 24px 24px 0;
+  border-top: 1px solid rgba(119, 119, 119, 0.8);
+  border-right: 1px solid rgba(119, 119, 119, 0.8);
+  border-bottom: 1px solid rgba(119, 119, 119, 0.8);
+}
+
+.pricing-border {
+  border-radius: 24px;
+  border: 1px solid rgba(119, 119, 119, 0.8);
+}
+
+.pricing-shadow {
+  box-shadow: 0px 60px 80px -40px #00000040;
+}
+
+.membership-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 48px;
+  width: 384px;
+  height: 376px;
+  background: radial-gradient(
+      145.31% 96.49% at 50% 77.59%,
+      rgba(72, 96, 203, 0.8) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(0deg, rgba(72, 96, 203, 0.45), rgba(72, 96, 203, 0.45)),
+    rgba(210, 210, 210, 0.2);
+  background-blend-mode: soft-light, multiply, luminosity;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 24px;
+}
+
+@layer base {
+  .nav-link {
+    @apply text-white text-[20px] font-bold cursor-pointer pe-[80px] hover:text-blueDark;
+  }
+
+  .btn-gradient-blue {
+    @apply bg-gradient-to-r from-blueDark to-blueLight px-[30px] md:px-[54.5px] py-[15px] md:py-[13px] rounded-full text-white font-semibold text-xs md:text-lg;
+  }
+
+  .btn-gradient-blue-nav-mobile {
+    @apply bg-gradient-to-r from-blueDark to-blueLight px-4 py-2 rounded-full text-white font-semibold text-xs;
+  }
+
+  .circle-gradient {
+    @apply rounded-full bg-gradient-to-r from-blueDark to-blueLight w-[14px] md:w-[18px] h-[14px] md:h-[18px];
+  }
+
+  .faq-collapse-title {
+    @apply text-xl md:text-2xl text-whiteText text-center font-normal leading-9;
+  }
+
+  .faq-collapse-title-active {
+    @apply text-xl md:text-2xl  text-center font-normal leading-9 bg-gradient-to-r from-[#283E7D] to-[#86A6FF] text-transparent bg-clip-text;
+  }
+
+  .faq-collapse-desc {
+    @apply text-lg md:text-xl leading-7 text-whiteText opacity-80;
+  }
+
+  .btn-gradient-icon {
+    @apply bg-gradient-to-r from-[#283E7D] to-[#86A6FF] rounded-full w-10 h-10 flex items-center justify-center cursor-pointer;
+  }
+
+  .footer-link {
+    @apply font-medium text-[#EBEBEB] text-lg hover:text-primary;
+  }
+
+  .footer-title {
+    @apply font-semibold text-white text-xl leading-8;
+  }
+
+  .header-title {
+    @apply text-white font-black leading-[70px] text-center text-6xl;
+  }
+  .header-title-mobile {
+    @apply text-white font-bold text-[28px] text-center leading-10;
+  }
+
+  .header-subtitle {
+    @apply text-greyText text-xl leading-[28.8px] text-center mt-4;
+  }
+
+  .header-subtitle-mobile {
+    @apply text-greyText text-xs leading-4 text-center mt-3;
+  }
+}
