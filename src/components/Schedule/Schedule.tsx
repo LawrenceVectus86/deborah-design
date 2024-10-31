@@ -28,7 +28,7 @@ function Schedule() {
                 <p className="font-bold text-xs text-center text-white mt-6">
                   Prefer to email?{" "}
                   <a
-                    href="mailto:tatia@deborah-tech.com"
+                    href="mailto:deborahhuda8@gmail.com"
                     className="text-[#156AFB] cursor-pointer"
                   >
                     tatia@deborah-tech.com
