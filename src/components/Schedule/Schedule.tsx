@@ -31,7 +31,7 @@ function Schedule() {
                     href="mailto:deborahhuda8@gmail.com"
                     className="text-[#156AFB] cursor-pointer"
                   >
-                    tatia@deborah-tech.com
+                    deborahhuda8@gmail.com
                   </a>
                 </p>
               </div>
