@@ -8,7 +8,7 @@ import BgPaternMobile from "./assets/images/bg-patern-mobile.png";
 import Eclipse from "./assets/images/ellipse.png";
 import HowDoesWork from "./components/Membership/HowDoesWork";
 import DesignService from "./components/DesignService/DesignService";
-import Price from "./components/Price/Price";
+// import Price from "./components/Price/Price";
 import Testimonial from "./components/Testimonal/Testimonial";
 import Faq from "./components/Faq/Faq";
 import Schedule from "./components/Schedule/Schedule";
@@ -53,9 +53,9 @@ function App() {
             </div>
           </div>
           <DesignService />
-          {/* <div className="relative">
-            <Price />
-          </div> */}
+          <div className="relative">
+            {/* <Price /> */}
+          </div>
           <div className="relative">
             <div className="relative">
               <Testimonial />
