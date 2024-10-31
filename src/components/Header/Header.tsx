@@ -20,7 +20,7 @@ function Header() {
           care of it!
         </p>
       </div>
-      <div className="button-header mt-3 md:mt-6">
+      {/* <div className="button-header mt-3 md:mt-6">
         <a
           href="#pricing"
           className="btn-gradient-blue shadow-[0_0_45.4px_-6px_rgba(98,109,212,1)] cursor-pointer"
@@ -33,7 +33,7 @@ function Header() {
             Available Now
           </h6>
         </div>
-      </div>
+      </div> */}
       <div className="tech-stack mt-[12px] md:mt-[77px] w-full px-5 md:px-[42px] ">
         <div className="flex items-center justify-between p-0 md:p-4 md:h-[80px]">
           <img
