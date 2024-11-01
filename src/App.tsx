@@ -14,6 +14,7 @@ import Faq from "./components/Faq/Faq";
 import Schedule from "./components/Schedule/Schedule";
 import Footer from "./components/Footer/Footer";
 import NavbarMobile from "./components/Navbar/NavbarMobile";
+import Donation from "./Donation/Donation";
 // import BgStar from "./assets/images/bg-star.png";
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
               <Testimonial />
             </div>
           </div>
+          <Donation/>
           <div className="relative">
             <div className="absolute top-[250px] -left-[50px] w-[800px] h-[800px] bg-gradient-to-r opacity-50 rounded-full bg-blend-soft-light from-[#283E7D] to-[#86A6FF] blur-[100px]"></div>
             <div className="relative">
