@@ -1,5 +1,5 @@
 import Logo from "../../assets/images/logo.png";
-import IcTiktok from "../../assets/svgs/ic-tiktok.svg";
+// import IcTiktok from "../../assets/svgs/ic-tiktok.svg";
 import IcLinkedin from "../../assets/svgs/ic-linkedin.svg";
 import IcDribbble from "../../assets/svgs/ic-dribbble.svg";
 import IcInstagram from "../../assets/svgs/ic-instagram.svg";
