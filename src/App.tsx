@@ -60,17 +60,23 @@ function App() {
           <div className="relative">
             <div className="relative">
               <Testimonial />
+             
             </div>
+           
           </div>
-          <Donation/>
+          
           <div className="relative">
+          
             <div className="absolute top-[250px] -left-[50px] w-[800px] h-[800px] bg-gradient-to-r opacity-50 rounded-full bg-blend-soft-light from-[#283E7D] to-[#86A6FF] blur-[100px]"></div>
             <div className="relative">
               <Faq />
             </div>
           </div>
           <Schedule />
+          <Donation/>
+          <div className="border-t-4 border-[#4B6ED3]">
           <Footer />
+          </div>
         </div>
       </div>
     </div>

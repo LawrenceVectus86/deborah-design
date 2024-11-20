@@ -18,7 +18,7 @@ function Portfolio() {
         pauseOnHover={false}
       />
       <div className=" flex items-center flex-col pb-[37px]">
-        <button className="btn-gradient-blue">View Recent Works</button>
+        <a className="btn-gradient-blue" href="https://www.behance.net/deborahdesign8">View Recent Works</a>
       </div>
     </div>
   );

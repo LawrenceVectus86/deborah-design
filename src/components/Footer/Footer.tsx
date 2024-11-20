@@ -5,7 +5,7 @@ import IcDribbble from "../../assets/svgs/ic-dribbble.svg";
 import IcInstagram from "../../assets/svgs/ic-instagram.svg";
 function Footer() {
   return (
-    <footer className="mx-[76px] mt-[130px] mb-[49px]">
+    <footer className="mx-[76px] mt-[80px] mb-[49px]">
       <div className="flex flex-col md:flex-row justify-between items-start">
         <div className="">
           <img src={Logo} alt="logo-alt" className="h-[51px]" />
@@ -13,18 +13,30 @@ function Footer() {
             Deborah Design. Design at its finest.
           </p>
           <div className="flex mt-[18px]">
-            <button className="btn-gradient-icon mr-[18px]">
+            {/* <button className="btn-gradient-icon mr-[18px]">
               <img src={IcTiktok} alt="tiktok" />
-            </button>
-            <button className="btn-gradient-icon mr-[18px]">
+            </button> */}
+            <a href="https://www.linkedin.com/company/deborahdesign/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-gradient-icon mr-[18px]">
               <img src={IcLinkedin} alt="linkedin" />
-            </button>
-            <button className="btn-gradient-icon mr-[18px]">
-              <img src={IcDribbble} alt="dribbble" />
-            </button>
-            <button className="btn-gradient-icon">
+            </a>
+            <a
+              href="https://www.behance.net/deborahdesign8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-gradient-icon mr-[18px]"
+            >
+            <img src={IcDribbble} alt="dribbble" />
+          </a>
+
+           <a href="https://www.instagram.com/deborahdesign.uk?igsh=aHAzajZsdnB6b3ox"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="btn-gradient-icon mr-[18px]">
               <img src={IcInstagram} alt="instagram" />
-            </button>
+           </a>
           </div>
         </div>
         <div className="mt-10 md:mt-0">
@@ -54,7 +66,7 @@ function Footer() {
         </div>
         <div className="mt-10 md:mt-0">
           <h5 className="footer-title mb-[14px]">Contact Us</h5>
-          <p className="footer-link mb-[14px]">deborahhuda8@gmail.com</p>
+          <p className="footer-link mb-[14px]"><a href="mailto:deborahhuda8@gmail.com">deborahhuda8@gmail.com</a></p>
           <p className="footer-link mb-[14px]">
           <a
             href="https://wa.me/6282144234649"
