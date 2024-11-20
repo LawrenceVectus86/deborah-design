@@ -55,7 +55,15 @@ function Footer() {
         <div className="mt-10 md:mt-0">
           <h5 className="footer-title mb-[14px]">Contact Us</h5>
           <p className="footer-link mb-[14px]">deborahhuda8@gmail.com</p>
-          <p className="footer-link mb-[14px]">+62821-4423-4649</p>
+          <p className="footer-link mb-[14px]">
+          <a
+            href="https://wa.me/6282144234649"
+            target="_blank"
+            rel="noopener noreferrer">
+            +62821-4423-4649
+          </a>
+        </p>
+
           <p className="footer-link mb-[14px]">DEBORAH DESIGN LTD</p>
           <p className="footer-link mb-[14px]">United Kingdom - 71-75 Shelton Street, London, England Great Britain</p>
         </div>
